@@ -1,0 +1,213 @@
+.jumbotron{
+    margin-top:0px;
+    margin-bottom:0px;
+    border-bottom:0 auto;
+    background-position: center;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image:  url('../images/ethiopia2.jpg');
+    color: #ff9900;
+    height: 100vh;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.bg-green {
+    background-color: #7ABA7A;
+    color: #fff;
+}
+
+.jumbo-container{
+  position: relative;
+  top: 40%;
+  transform: translateY(-80%);
+}
+
+/* chevron down */
+.container-bottom{
+    position: absolute;
+    bottom: 0;
+    margin-bottom:0px;
+    right:0px;
+    left:0px;
+}
+
+.container-bottom > .center > a{
+    color: #ff9900;
+}
+
+/*about section*/
+.about-rows{
+  padding:100px;
+}
+
+/* Style the carousel with pics*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 450px;
+      margin: auto;
+  }
+
+/* Style the carousel without pics*/
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #fff;
+}
+
+.carousel-indicators li {
+    border-color: #fff;
+}
+
+.carousel-indicators li.active {
+    background-color: #fff;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 50px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+/*about section chevron*/
+.container-bottom2{
+    position: relative;
+    bottom: 0;
+    margin-bottom:0px;
+    margin-top:30px;
+    right:0px;
+    left:0px;
+}
+
+
+.container-bottom2 > .text-center > a{
+    padding: 30px 0 0 0;
+    color: #fff;
+    font-size: 50px;
+}
+
+/*travels section*/
+.bg-blue{
+    background-color:#50c0c9;
+    color: #fff;
+}
+
+.travels-center{
+  padding:30px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+.thumbnail {
+    padding: 0 0 0 0;
+    border: none;
+    border-radius: 0;
+    background-color:transparent;
+}
+
+.center {
+    margin:auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 50px;
+}
+
+/*tutorials section*/
+.tutorials-center > .text-center > h1{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tutorials-center{
+  padding:30px 50px;
+}
+
+.myvertical-block {
+  display: block;
+  max-width: 800px;
+  background: #50c0c9;
+  margin: 0 auto 1em;
+  height: 150px;
+  border-radius: .2em;
+  position: relative;
+  color: white;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  img, p {
+  padding: 1em;
+  margin: 0;
+  }
+}
+
+/* contacts */
+.bg-red {
+   background-color: #d24e4e;
+}
+
+.contacts{
+    padding: 120px 100px;
+}
+
+.contacts h1{
+    color:#227ec3;
+    padding: 0px 0px;
+}
+
+.btn-circle {
+    border-style: solid;
+    border-color:#227ec3;
+    background-color:#d24e4e;
+    color:#227ec3;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 50px;
+}
+.btn-circle:hover{
+    background-color:#227ec3;
+    color:#d24e4e;
+
+}
+
+#thumbs {
+    width: 500px;
+    margin-top:90px;
+    margin-left: auto;
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
